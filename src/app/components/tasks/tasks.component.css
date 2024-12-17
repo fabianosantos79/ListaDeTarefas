@@ -1,0 +1,7 @@
+.lista-task {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}

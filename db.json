@@ -2,15 +2,27 @@
   "tasks": [
     {
       "task": "Java",
-      "category": "casa",
+      "category": "faculdade",
       "finish": false,
       "id": 1
     },
     {
-      "task": "Lógica",
-      "category": "academia",
-      "finish": true,
-      "id": 3
+      "task": "React",
+      "category": "trabalho",
+      "finish": false,
+      "id": 2
+    },
+    {
+      "task": "Passear",
+      "category": "lazer",
+      "finish": false,
+      "id": 4
+    },
+    {
+      "task": "Angular",
+      "category": "trabalho",
+      "finish": false,
+      "id": 5
     }
   ]
 }

@@ -1,4 +1,11 @@
 .reminder {
-  background-color: lawngreen;
+  background-color: #dcdcdc;
   text-decoration: line-through;
+  opacity: 0.7;
+}
+.primary {
+  background-color: blue;
+}
+.secondary {
+  background-color: crimson;
 }

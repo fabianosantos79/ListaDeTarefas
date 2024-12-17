@@ -1,9 +1,17 @@
 @if (showForm) {
-<button>Fechar</button>
+<app-button
+  texto="Fechar"
+  bgColor="red"
+  (clickBtn)="alteraVisualizacao(false)"
+></app-button>
 }@else{
-<button>Abrir</button>
-} @if (showForm) {
-<form class="add-form mb-4" (ngSubmit)="onSubmit()">
+<app-button
+  texto="Adicionar"
+  bgColor="green"
+  (clickBtn)="alteraVisualizacao(true)"
+></app-button>
+}
+<form class="add-form mb-4" (ngSubmit)="onSubmit()" *ngIf="showForm">
   <div class="mb-3">
     <input
       type="text"
@@ -32,7 +40,6 @@
   <input
     type="submit"
     value="Salvar tarefa"
-    class="btn btn-primary btn-block"
+    class="btn btn-salvar btn-block"
   />
 </form>
-}
