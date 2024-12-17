@@ -1,3 +1,8 @@
+<app-add-task (onAddTask)="addTask($event)"></app-add-task>
 @for (tarefaUnica of tarefas; track tarefaUnica.id) {
-  <app-task-item [tarefaCompleta]="tarefaUnica"></app-task-item>
+<app-task-item
+  [tarefaCompleta]="tarefaUnica"
+  (onDeleteTask)="deleteTask($event)"
+  (onToggleFinish)="toggleFinish($event)"
+></app-task-item>
 }

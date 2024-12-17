@@ -1,0 +1,38 @@
+@if (showForm) {
+<button>Fechar</button>
+}@else{
+<button>Abrir</button>
+} @if (showForm) {
+<form class="add-form mb-4" (ngSubmit)="onSubmit()">
+  <div class="mb-3">
+    <input
+      type="text"
+      class="form-control"
+      id="tarefa"
+      name="tarefa"
+      placeholder="Nome da tarefa"
+      [(ngModel)]="tarefa"
+    />
+  </div>
+  <div class="mb-3">
+    <select
+      name="categoria"
+      id="categoria"
+      class="form-select"
+      [(ngModel)]="categoria"
+    >
+      <option value="" selected>Selecione uma categoria</option>
+      <option value="casa">Casa</option>
+      <option value="trabalho">Trabalho</option>
+      <option value="faculdade">Faculdade</option>
+      <option value="academia">Academia</option>
+      <option value="lazer">Lazer</option>
+    </select>
+  </div>
+  <input
+    type="submit"
+    value="Salvar tarefa"
+    class="btn btn-primary btn-block"
+  />
+</form>
+}

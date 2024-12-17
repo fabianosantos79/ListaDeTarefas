@@ -1,4 +1,18 @@
-<div>
-  <h3>{{ tarefaCompleta.task }}</h3>
-  <p>{{ tarefaCompleta.category }}</p>
+<div
+  class="card"
+  style="width: 21rem"
+  (dblclick)="onToggle(tarefaCompleta)"
+  [ngClass]="{ reminder: tarefaCompleta.finish }"
+>
+  <div class="card-body">
+    <h5 class="card-title">{{ tarefaCompleta.task }}</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">
+      {{ tarefaCompleta.category }}
+    </h6>
+    <a href="#" class="btn btn-primary">Editar</a>
+    <a href="#" class="btn btn-primary" (click)="onDelete(tarefaCompleta)"
+      >Excluir</a
+    >
+  </div>
 </div>
+<br />

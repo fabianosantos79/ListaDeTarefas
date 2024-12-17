@@ -1,16 +1,16 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "task": "Estudar Angular",
-      "category": "Faculdade",
-      "finish": false
+      "task": "Java",
+      "category": "casa",
+      "finish": false,
+      "id": 1
     },
     {
-      "id": 2,
-      "task": "Ler sobre Java",
-      "category": "Trabalho",
-      "finish": true
+      "task": "Lógica",
+      "category": "academia",
+      "finish": true,
+      "id": 3
     }
   ]
 }
