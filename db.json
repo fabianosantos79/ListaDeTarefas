@@ -13,16 +13,16 @@
       "id": 2
     },
     {
-      "task": "Passear",
-      "category": "lazer",
-      "finish": false,
-      "id": 4
-    },
-    {
       "task": "Angular",
       "category": "trabalho",
       "finish": false,
       "id": 5
+    },
+    {
+      "task": "Viajar",
+      "category": "lazer",
+      "finish": false,
+      "id": 6
     }
   ]
 }
