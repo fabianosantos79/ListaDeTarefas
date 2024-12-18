@@ -1,27 +1,55 @@
-# ListaDeTarefas
+# ⚡️ Lista de Tarefas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+Aplicação criada com Angular onde é possível adicionar tarefas, marcar como concluídas, editar o estado e excluir o projeto consome uma API criada na própria aplicação com JSON Server onde podemos fazer a criação de tarefas pelo formulário, utilizei Bootstrap para estilizar os componentes.
 
-## Development server
+[![Link do Lab](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://lista-de-tarefas-pa8ntnr2v-fabianosantos79s-projects.vercel.app/)
+[![Link do Lab](https://img.shields.io/badge/Acesse%20o%20Projeto%20na%20Web-F4181C?style=for-the-badge)](https://lista-de-tarefas-pa8ntnr2v-fabianosantos79s-projects.vercel.app/)
+<br/><br/>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🛠 Funcionalidades
 
-## Code scaffolding
+- Criação de tarefas pelo Componente formulário
+- Consulta de tarefas cadastradas no Json Serve
+- Atualização de tarefas para o estado concluída e vice-versa
+- Deletar tarefas
+- Gestão realizada com RXJS utilizando Observables e a API Json Server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🌐 Demonstração
 
-## Build
+Abaixo a demonstração da aplicação em localhost
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![App Screenshot](https://raw.githubusercontent.com/fabianosantos79/ecommerce/main/public/ecommerce.gif)
+<br/><br/>
 
-## Running unit tests
+## 🚀 Instalação
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Instale utilizando npm
 
-## Running end-to-end tests
+```bash
+  npm install my-project
+  cd my-project
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Rode com start
 
-## Further help
+```bash
+  ng serve -o
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<br/>
+
+## 🔗Stacks utilizadas
+
+**✨Frontend**
+
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<br/>
+
+**🔨Backend**
+
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white) ![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
+<br/>
+
+**☁️Deploy**
+
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
